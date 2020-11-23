@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import data
 
 app = Flask(__name__)
 
@@ -23,6 +24,7 @@ def tours(id):
 
 @app.route('/data')
 def get_tours():
+    # data.tours
     return 'список всех туров'
 
 
