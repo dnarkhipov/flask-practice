@@ -21,5 +21,20 @@ def tours(id):
     return render_template('tour.html')
 
 
+@app.route('/data')
+def get_tours():
+    return 'список всех туров'
+
+
+@app.route('/data/departures/<departure>')
+def get_tour_by_departure(departure):
+    return 'туры по направлению'
+
+
+@app.route('/data/tours/<id>')
+def get_tour_by_id(id):
+    return 'тур по id'
+
+
 if __name__ == '__main__':
     app.run()
