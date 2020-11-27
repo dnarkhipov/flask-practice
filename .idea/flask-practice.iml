@@ -13,6 +13,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/project1/templates" />
+        <option value="$MODULE_DIR$/project2/templates" />
       </list>
     </option>
   </component>
